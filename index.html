@@ -1,0 +1,87 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Практика</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="container">
+		<div class="info">
+			<img class="foto" src="IMG_20210807_141052.jpg" alt="здесь моё фото">
+			<div class="info-text">
+				<div class="im">
+					<h1>Нетреба Максим</h1>
+					<p>я лентяй и любитель поспать</p>
+					<p>
+						я люблю заниматься спортом, путишествовать и программировать
+					</p>
+				</div>
+				<h4>Мои соц.сети</h4>
+				<a href="https://t.me/MaxLang" target="_blank">Telegram</a>
+				|
+				<a href="https://vk.com/max_lang" target="_blank">vk.com</a>
+				|
+				<a href="https://instagram.com/max___lang?utm_medium=copy_link" target="_blank">instagram</a>
+			</div>
+		</div>
+
+		<div class="card card-hobby">
+			<h4>Мои хобби</h4>
+			<div class="list">
+				<ol>
+					<li>спорт, тренажерный зал</li>
+					<li>путишествия</li>
+					<li>сериалы, кино и аниме</li>
+				</ol>
+			</div>
+		</div>
+		<div class="card card-work">
+			<h4>Опыт работы</h4>
+			<table class="table">
+
+				<tr>
+					<td>Samsung SDI Hungary</td>
+					<td>operator</td>
+					<td>09.2019-12.2020</td>
+				</tr>
+				<tr>
+					<td>Flex Hungary</td>
+					<td>product tester</td>
+					<td>05.2020-07.2020</td>
+				</tr>
+			</table>
+		</div>
+		<div class="contact">
+			<h4>Связаться со мной</h4>
+			<form action="/">
+				<div class="row">
+					<div class="form-group">
+						<label for="name">ваше имя:</label>
+						<input type="text" id="name" placeholder="введите ваше имя...">
+					</div>
+					<div class="form-group">
+						<label for="Email">Ваш Email:</label>
+						<input type="text" id="Email" placeholder="введите ваш email...">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="text">Ваше сообщение:</label>
+					<textarea name="" id="text" cols="30" rows="10"></textarea>
+				</div>
+				<input class="button" type="submit" value="связаться">
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
